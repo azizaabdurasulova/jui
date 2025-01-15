@@ -1,0 +1,16 @@
+header{
+    .contact{
+    @include primary-btn(#5e3bee ,none)
+    }
+}
+
+main{
+    .hero{
+ .hero__title{
+    @include title(76px)
+ }
+ .touch{
+    @include primary-btn()
+ }
+    }
+}
