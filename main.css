@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --main-color:#000;
+  --ochkok: #9CA3AF;
+
+}
+
+.sayt_hedr {
+    padding: 20px 0;
+}
+
+.contaner {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.sayt_hedr{
+    background-color: #E93037;
+}
+
+.sayt_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.head_link {
+    text-decoration: none;
+    color: black;
+}
+
+.head_link_number {
+    text-decoration: none;
+    background: #FFBB00;
+    padding: 15px 50px;
+    color: black;
+    column-width: 5px;
+    border-radius: 30px;
+    background-image:url("images/Hero\ Background.png");
+
+}
+
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+   
+}
+.hero__bodyl {
+    display: flex;
+    align-items: center;
+    background: #FFAE00;
+}
+.hero__body{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--main-color);
+    font-family: "Poppins", serif;
+
+}
+
+.yozuv{
+color: var(--ochkok);
+font-size: 45px;
+top:38px;
+font-family: "Poppins", serif;
+
+
+}
+
+.kichkina_rasim{
+    display: flex;
+   gap: 20px;
+
+}
+.bosh{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.p_lar{
+    text-align: center;
+}
+.knopka{
+    width: 214px;
+    right:0px;
+    padding: 15px 30px;
+    background: #5FD788;
+    color: white;
+    border-radius: 5px;
+}
+.butonlar{
+    text-decoration: none;
+    background: #000000;
+    padding: 15px 50px;
+    color: rgb(255, 255, 255);
+    column-width: 5px;
+    border-radius: 8px;
+}
+.butonlari{
+    text-decoration: none;
+    border: 1px solid black;
+    background: none;
+    padding: 15px 50px;
+    color: rgb(255, 255, 255);
+    column-width: 5px;
+    border-radius: 8px;
+}
+
+
+.header_list{
+align-items: center;
+}
+
+.ota{
+    height: 600px;
+    background-image: url("images/Hero\ Background.png");
+    background-repeat: no-repeat;
+}
+
+.yozuvni_otasi{
+    width: 586px;
+
+}
+.yozuv{
+font-size: 96px;
+}
+
+.kichkina_yozuv{
+font-size: 16px;
+}
+.tipti{
+font-size: 14px;
+}
